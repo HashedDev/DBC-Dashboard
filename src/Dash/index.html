@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Dashboard - DBC</title>
+    <meta name="description" content="Appetite Studios">
+    <link rel="icon" type="image/svg+xml" sizes="131x150" href="assets/img/dashcube-brands.svg">
+    <link rel="icon" type="image/svg+xml" sizes="131x150" href="assets/img/dashcube-brands.svg">
+    <link rel="icon" type="image/svg+xml" sizes="131x150" href="assets/img/dashcube-brands.svg">
+    <link rel="icon" type="image/svg+xml" sizes="131x150" href="assets/img/dashcube-brands.svg">
+    <link rel="icon" type="image/svg+xml" sizes="131x150" href="assets/img/dashcube-brands.svg">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+    <link rel="stylesheet" href="assets/css/misc.css">
+    <link rel="stylesheet" href="assets/css/settings.css">
+</head>
+
+<body id="page-top">
+    <div id="wrapper">
+        <div class="d-flex flex-column" id="content-wrapper">
+            <div id="content">
+                <nav class="navbar navbar-light navbar-expand bg-white shadow mb-4 topbar static-top">
+                    <div class="container-fluid"><i class="fa fa-dashcube navbar-brand" style="font-size: 35px;color: rgb(42,42,42);"></i></div>
+                </nav>
+                <div class="container-fluid">
+                    <div class="d-sm-flex justify-content-between align-items-center mb-4">
+                        <h3 class="text-dark mb-0">Dashboard</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-primary py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-primary font-weight-bold text-xs mb-1"><span>GUILDS</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="bot-guilds">0</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-compass fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-success py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span>USERS</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="bot-users">0</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-users fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-info py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span style="color: #36b9cc;">PREFIX</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="bot-prefix" class="noselect">Coming Soon</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-exclamation fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-xl-3 mb-4">
+                            <div class="card shadow border-left-danger py-2">
+                                <div class="card-body">
+                                    <div class="row align-items-center no-gutters">
+                                        <div class="col mr-2">
+                                            <div class="text-uppercase text-success font-weight-bold text-xs mb-1"><span style="color: #dc3545;">TOKEN</span></div>
+                                            <div class="text-dark font-weight-bold h5 mb-0"><span id="bot-token" class="noselect click-reveal">Reveal</span></div>
+                                        </div>
+                                        <div class="col-auto"><i class="fas fa-user-secret fa-2x text-gray-300"></i></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <div class="card shadow mb-4">
+                                <div class="card-header py-3">
+                                    <h6 class="text-primary font-weight-bold m-0">Settings</h6>
+                                </div>
+                                <div class="card-body">
+                                    <div class="alert alert-primary" role="alert"><span><strong>Coming Soon</strong></span></div>
+                                    <div class="col">
+                                        <div class="form-group">   <div class="input-group">
+      <input class="bg-light form-control border-0 small" type="text" placeholder="Prefix" id="prefix-text">
+      <div class="input-group-append"><button class="btn-blue-confirm btn btn-primary py-0" type="button" id="prefix-submit"><i class="fas fa-check-circle"></i></button></div>
+   </div>
+<br>
+   <div class="input-group">
+      <input class="bg-light form-control border-0 small" type="text" placeholder="Token" id="token-text">
+      <div class="input-group-append"><button class="btn-blue-confirm btn btn-primary py-0" type="button" id="token-submit"><i class="fas fa-check-circle"></i></button></div>
+   </div></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="bg-white sticky-footer fixed-bottom">
+                <div class="container my-auto">
+                    <div class="text-center my-auto copyright"><span>Copyright © Appetite Studios 2020</span></div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/CDN/discord.11.6.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.js"></script>
+    <script src="assets/js/CDN/min.js"></script>
+    <script src="assets/js/CSS/theme.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>

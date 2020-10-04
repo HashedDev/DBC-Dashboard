@@ -15,5 +15,5 @@ var config = {
 ``` 
 
 **Replace `Your Token` with your bot token. (Can't find your token? Go to bot.js and you will see at botConfigs a place with "token")**
-**Start your bot and it's online! **
-**Visit with http://localhost:80**
+**Start your bot and it's online**
+Visit the Dashboard at http://localhost:80
